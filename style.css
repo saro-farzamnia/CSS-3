@@ -1,0 +1,38 @@
+/* Universal selector */
+*{
+    color: #ff2a00;
+}
+
+/* Element selector */
+hr{
+    height: 10px;
+    background-color: black;
+}
+
+/* Attribute selector */
+input[type = "text"]{
+    width: 90px;
+    height: 30px;
+    color: black;
+}
+input[type = "numder"]{
+    color: black;
+}
+
+/* Descendant selector and Direct child selector */
+ul li{
+    color: #aa199f;
+}
+ol > li{
+    color: blue;
+}
+
+/* Adjacent selector */
+h1+h3{
+    color:magenta;
+}
+
+/* General sibling combinator */
+h4~h2{
+    color: darkslateblue;
+}
